@@ -1,0 +1,46 @@
+#MyForm{
+    background-color: beige;
+    color: black;
+    border : 2px solid black;
+    border-radius: 5px;
+    padding: 10 px;
+    font-weight: bold;
+    font-size: larger;
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+    background-color: beige;
+    color: navy;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 15px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.container {
+    padding: 16px;
+}
+
+.btn{ 
+    background-color: white;
+    color: navy;
+    width: 100%;
+    font-weight: bold;
+    font-size: larger;
+    padding: 16px 20px;
+    margin: 20px;
+    display: inline-block;
+    opacity: 0.8;
+}
+
+.btn:hover{
+    opacity:1;
+}
