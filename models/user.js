@@ -17,7 +17,7 @@ const User = sequelize.define('user',{
         allowNull:false
     },
     contact:{
-        type:Sequelize.INTEGER,
+        type:Sequelize.STRING,
         allowNull:false
     }
 },{timestamps: false});

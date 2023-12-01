@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(userRoute);
 
-sequelize.sync()
+sequelize.sync({force:false})
 .then(()=>app.listen(3000,()=>{
     console.log("Server is Running")
 }))
